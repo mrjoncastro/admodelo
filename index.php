@@ -92,26 +92,32 @@
     <section id="tabs" class="tabs">
       <div class="container" data-aos="fade-up">
 
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3">
+        <ul class="nav nav-tabs row d-flex justify-content-center text-center">
+          <li class="nav-item col-2">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
               <img src="assets/img/clients/ceadeb-black.ico" class="img-tabs"></img>
               <h4 class="d-none d-lg-block"></h4>
             </a>
           </li>
-          <li class="nav-item col-3">
+          <li class="nav-item col-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
               <img src="assets/img/clients/ceacre.ico" class="img-tabs"></img>
               <h4 class="d-none d-lg-block"></h4>
             </a>
           </li>
-          <li class="nav-item col-3">
+          <li class="nav-item col-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
               <img src="assets/img/clients/vox.ico" class="img-tabs"></img>
             </a>
           </li>
-          <li class="nav-item col-3">
+          <li class="nav-item col-2">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <img src="assets/img/clients/ceadeb-black.ico" class="img-tabs"></img>
+              <h4 class="d-none d-lg-block"></h4>
+            </a>
+          </li>
+          <li class="nav-item col-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
               <img src="assets/img/clients/ceadeb-black.ico" class="img-tabs"></img>
               <h4 class="d-none d-lg-block"></h4>
             </a>
@@ -216,6 +222,30 @@
               </div>
             </div>
           </div>
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                </ul>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -235,30 +265,33 @@
               <a href="#" class="about-btn"><span>Inscreva-se</span> <i class="bx bx-chevron-right"></i></a>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch icon-boxes d-flex flex-column justify-content-center">
-            <div class="container" data-aos="fade-up">
-              <div class="swipper">
-                <div class="row calendar-wrapper">
-                  <div class="col-md-4 icon-box swiper-slide" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-wrap">
-                      <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
-                    </div>
+          <div class="col-xl-7 d-flex align-items-stretch d-flex flex-column justify-content-center">
+          <div class="calendar-swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+              <div class="row swiper-slide">
+                <div class="col-lg-4 icon-box swiper-wrap" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card">
+                    <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
                   </div>
-                  <div class="col-md-4 icon-box swiper-slide" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-wrap">
-                      <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md-4 icon-box swiper-slide" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-wrap">
-                      <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
-                    </div>
-                  </div>
-                  <!-- End .content-->
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="col-lg-4 icon-box swiper-wrap" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card">
+                    <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
+                  </div>
+                </div>
+                <div class="col-lg-4 icon-box swiper-wrap" data-aos="fade-up" data-aos-delay="100">
+                  <div class="card">
+                    <img src="assets/img/tabs-1.jpg" class="card-img-top" alt="...">
+                  </div>
+                </div>
+                <!-- End .content-->
               </div>
             </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= 
@@ -458,7 +491,7 @@
     </section><!-- End Gallery Section -->
 
     <!-- ======= Offer Section ======= -->
-    <section id="services" class="services section-bg ">
+    <!--<section id="services" class="services section-bg ">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -520,7 +553,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
